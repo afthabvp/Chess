@@ -3,7 +3,6 @@ package com.target.chess.imp.fen;
 import org.junit.Assert;
 import org.junit.Test;
 
-import com.sun.beans.editors.BooleanEditor;
 import com.target.chess.imp.game.Color;
 import com.target.chess.imp.game.Point;
 import com.target.chess.imp.piece.Board;

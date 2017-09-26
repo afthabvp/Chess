@@ -20,7 +20,7 @@ public class King extends Piece{
 		/*
 		 * Allow for castling
 		 */							
-		if(super.getColor() == Color.BLACK){ //case that piece is white
+		if(super.getColor() == Color.BLACK){ //case that piece is black
 			if(board.hasPiece(7, 7)){
 				if(board.getSquare(7,7).getType().equals(Pieces.Rook.getValue())){ //checks if there is rook in correct position
 					if(super.getPoint().getX() == 4 && super.getPoint().getY() == 7 && p_to.getX() == 6 && p_to.getX() ==7){
